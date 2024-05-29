@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('back2.jpg');
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+.countdown{
+    background-color: rgba(0, 0, 0, 0.5); 
+	background-color: #faf9f980; 
+	text-align: center;
+    width: 80%;
+}
+#timer {
+	display: flex;
+  justify-content: center;
+  /* margin-top: 50px; */
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 40vh;
+    padding-right: 300px; 
+  width: 100vw; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	/* padding-top: 200px; */
+}
+
+#timer div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 20px;
+	font-size: 36px;
+}
+
+#timer div span {
+	font-size: 18px;
+}
+#button{
+   /* padding-left: 250px;  */
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 70px;
+    justify-content: center;
+}
+#button button{
+    flex-direction: column;
+    font-size: 30px;
+    font-family: fangsong;
+    background-color: beige;
+    margin: 0 16px;
+}
