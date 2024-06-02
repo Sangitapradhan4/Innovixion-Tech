@@ -1,0 +1,42 @@
+body{
+    background: url('back2.jpg');
+    width: 100%;
+}
+#quiz-container {
+    background-color: rgba(231, 228, 228, 0.5);
+    width: 650px;
+    padding: 30px;
+    text-align: center;
+    margin-left: 28%;
+    margin-top: 14%;
+}
+
+#choices {
+    font-size: 20px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#choices li {
+	margin-bottom: 20px;
+}
+
+#submit {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 6px 6%;
+    background-color: pink;
+	display: block;
+	margin: 20px auto;
+    cursor: pointer;
+}
+#submit:hover{
+    
+    background-color: rgb(247, 83, 110);
+}
+
+#results {
+	text-align: center;
+	margin-top: 20px;
+}
